@@ -21,29 +21,23 @@ public class VerificaNumero {
 		int resultado = 0;
 
 		String resposta = JOptionPane.showInputDialog("Informe um numero: ");
-		try {
 
-			int numeroInformado = Integer.parseInt(resposta);
+		int numeroInformado = Integer.parseInt(resposta);
 
-			while (true) {
-
-				if (n1 > 2147483645) {
-					JOptionPane.showMessageDialog(null, "O numero informado nao pertence a sequencia de Fibonacci");
-					break;
-				}
-				if (n1 == numeroInformado) {
-					JOptionPane.showMessageDialog(null,
-							"O número " + numeroInformado + " pertence a sequencia de Fibonacci");
-					break;
-				}
-
-				resultado = n1 + n2;
-				n1 = n2;
-				n2 = resultado;
+		while (true) {
+			if (n1 > 999999) {
+				JOptionPane.showMessageDialog(null, "O numero informado nao pertence a sequencia de Fibonacci");
+				break;
+			}
+			if (n1 == numeroInformado) {
+				JOptionPane.showMessageDialog(null,
+						"O número " + numeroInformado + " pertence a sequencia de Fibonacci");
+				break;
 			}
 
-		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, resposta + " Nao e um numero inteiro valido: ");
+			resultado = n1 + n2;
+			n1 = n2;
+			n2 = resultado;
 		}
 	}
 }
