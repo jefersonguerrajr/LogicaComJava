@@ -6,7 +6,7 @@ package maiorNumero;
 /**
  * @author Jeferson
  * 
- *         verifica um vetor de números e mostra quem é o maior
+ *         verifica um vetor de nï¿½meros e mostra quem ï¿½ o maior
  *
  */
 
@@ -26,7 +26,7 @@ public class MaiorNumero {
 
 		}
 
-		System.out.println("O maior número é: " + maior);
+		System.out.println("O maior nï¿½mero ï¿½: " + maior);
 
 	}
 

@@ -15,14 +15,14 @@ public class ComparandoDatas {
 		Date d3 = sdf.parse("06/06/1998");
 		
 		if (d1.equals(d2)) 
-			System.out.println("d1 é igual a d2"); //f
+			System.out.println("d1 ï¿½ igual a d2"); //f
 		if (d1.equals(d3)) 
-			System.out.println("d1 é igual a d3"); //v
+			System.out.println("d1 ï¿½ igual a d3"); //v
 		
 		if(d2.after(d1))
-			System.out.println("d2 é antes de d3");
+			System.out.println("d2 ï¿½ antes de d3");
 		if(d1.before(d2))
-			System.out.println("d1 é depois de d3");
+			System.out.println("d1 ï¿½ depois de d3");
 		
 		
 	}

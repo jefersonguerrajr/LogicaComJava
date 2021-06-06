@@ -19,7 +19,7 @@ public class FormatandoDatas {
 		Date y2 = sdf2.parse("25/06/2018 15:00:01");
 
 		System.out.println(y1 + " Sem formato");
-		System.out.println(y2 + " Sem formato + Horário");
+		System.out.println(y2 + " Sem formato + Horï¿½rio");
 
 		System.out.println(sdf1.format(y1) + " Formatado");
 		System.out.println(sdf2.format(y2) + " Formatado com horario");
@@ -37,12 +37,12 @@ public class FormatandoDatas {
 		System.out.println(sdf2.format(x21) + " Passando Long.MAX_VALUE");
 
 		Date x3 = new Date(0L);
-		System.out.println(sdf2.format(x3) + " Inicio da contagem da data em GMT"); // No Brasil o horário é GMT-3
+		System.out.println(sdf2.format(x3) + " Inicio da contagem da data em GMT"); // No Brasil o horï¿½rio ï¿½ GMT-3
 
 		Date x4 = new Date(1000L * 60L * 60L * 5L);
 		System.out.println(sdf2.format(x4) + " Acrescentando +5 horas ao horario Default");
 
-		// padrão ISO8671 e classe instant
+		// padrï¿½o ISO8671 e classe instant
 		// horario GMT
 		Date x5 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
 		// Converte automaticamente para o timezone configurado na maquina, no caso

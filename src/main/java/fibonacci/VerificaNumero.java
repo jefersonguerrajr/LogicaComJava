@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 /**
  * @author Jeferson
  * 
- *         Classe que verifica se o número informado pertence a sequência de
+ *         Classe que verifica se o nï¿½mero informado pertence a sequï¿½ncia de
  *         Fibonacci
  *
  */
@@ -31,7 +31,7 @@ public class VerificaNumero {
 			}
 			if (n1 == numeroInformado) {
 				JOptionPane.showMessageDialog(null,
-						"O número " + numeroInformado + " pertence a sequencia de Fibonacci");
+						"O nï¿½mero " + numeroInformado + " pertence a sequencia de Fibonacci");
 				break;
 			}
 

@@ -6,7 +6,7 @@ package menorNumero;
 /**
  * @author Jeferson
  * 
- *         Verifica um vetor de números e mostra quem é o menor
+ *         Verifica um vetor de nï¿½meros e mostra quem ï¿½ o menor
  */
 public class MenorNumero {
 
@@ -24,7 +24,7 @@ public class MenorNumero {
 
 		}
 
-		System.out.println("O menor número é: " + menor);
+		System.out.println("O menor nï¿½mero ï¿½: " + menor);
 		
 	}
 

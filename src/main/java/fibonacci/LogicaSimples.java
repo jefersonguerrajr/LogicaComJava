@@ -3,12 +3,11 @@
  */
 package fibonacci;
 
-import javax.swing.JOptionPane;
 
 /**
  * @author Jeferson
  *
- *         Lógica simples que imprime a sequência de Fibonacci
+ *         Lï¿½gica simples que imprime a sequï¿½ncia de Fibonacci
  */
 public class LogicaSimples {
 
