@@ -1,7 +1,7 @@
 /**
  * 
  */
-package maiorNumero;
+package logica.maiorNumero;
 
 /**
  * @author Jeferson

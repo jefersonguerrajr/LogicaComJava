@@ -1,2 +1,3 @@
 # LogicaComJava
-Soluções de problemas utilizando Java
+
+Lógica e exemplos de código utilizando Java

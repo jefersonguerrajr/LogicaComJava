@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fibonacci;
+package logica.fibonacci;
 
 
 /**

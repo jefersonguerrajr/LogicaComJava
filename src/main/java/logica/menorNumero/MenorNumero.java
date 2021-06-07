@@ -1,7 +1,7 @@
 /**
  * 
  */
-package menorNumero;
+package logica.menorNumero;
 
 /**
  * @author Jeferson
